@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock-Paper-Scissors Game</title>
+	<link rel="stylesheet" type="text/css" href="Single player screen.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="project_client.js"></script>
+	
+</head>
+<body onload="SinglePlayerRounds()">
+	<header>
+		<button id = 'namebtn' onclick="getNameSinglePlayer()">Click to enter Name</button>
+	</header>
+	<div class="columns">
+	<div class="column1">
+		<h2 id="name1">Player</h2>
+		<button class="rock" onclick="Player1Selection('R')" id="R">
+            <img src="images/rock.JPEG" width="90" height="90">
+        </button>
+		<button class="paper" onclick="Player1Selection('P')" id="P">
+            <img src="images/paper.JPEG" width="90" height="90">
+        </button>
+		<button class="scissors" onclick="Player1Selection('S')" id="S">
+            <img src="images/scissors.JPEG" width="90" height="90">
+        </button>
+	</div>
+	<div class="column2">
+		<h2>Computer</h2>
+		<div class="choices">
+            <div class="choice_1">
+				<img src="images/rock.JPEG" width="92.5" height="92.5" id="r">
+			</div>
+			<div class="choice_2">
+            <img src="images/paper.JPEG" width="92.5" height="92.5" id="p">
+			</div>
+			<div class="choice_3">
+            <img src="images/scissors.JPEG" width="92.5" height="92.5" id="s">
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="info">
+		<h2> SINGLE PLAYER</h2>
+			<h3 id="rounds">0</h3>
+			<h3 id="result"></h3>
+		<h3 id="remainrounds">0</h3>
+	</div>
+	<button id="resultbtn" onclick="location.href='result [SP].html'">Results</button>
+    <!--<div class="header1"> 
+      <table style="width: 100%;">
+        <tr>
+          <td style="width: 35%;">
+            <h2 class="myheader">SINGLE PLAYER</h2>
+            <h2 class="myheader" id="rounds">Total Rounds</h2>
+          </td>
+          <td>
+            <h2 class="myheader" id="results"></h2>
+          </td>
+         <td>
+            <h2 class="myheader" id="remainrounds">remainrounds</h2>
+          </td> 
+        </tr>
+      </table>-->
+    </footer>
+</body>
+</html>

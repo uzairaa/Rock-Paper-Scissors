@@ -1,0 +1,60 @@
+body{
+    background-image: url("images/Backgroundpic.jpg");
+    background-size: cover;
+}
+.modes-container {
+	margin: 50px auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+.select-mode, .best-of {
+	margin-bottom: 50px;
+}
+
+
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+	
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.single-player {
+	background-color: #f44336;
+}
+
+.multiplayer {
+	background-color: #008CBA;
+}
+
+.best-of-3 {
+	background-color: #FFC107;
+}
+
+.best-of-5 {
+	background-color: #607D8B;
+}
+
+.best-of-7 {
+	background-color: #9C27B0;
+}
+.select-mode{
+    color: white;
+}
+.best-of{
+    color: white;
+}

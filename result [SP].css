@@ -1,0 +1,58 @@
+body{
+    background-image: url("images/Backgroundpic.jpg");
+    background-size: cover;
+}
+
+table {
+	margin: 200px auto;
+	border-collapse: collapse;
+	width: 50%;
+    table-layout: fixed;
+}
+
+th {
+	background-color: rgb(199, 49, 164);
+	color: white;
+	font-weight: bold;
+	height: 50px;
+    
+}
+
+td {
+	color: white;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	border: 1px solid white;
+}
+
+#replayButton {
+	margin: 50px auto;
+	display: block;
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	background-color: #d37aca;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#replayButton:hover {
+	background-color: #555;
+}
+h1{
+    font-size: 50px;
+    font-family: monospace;
+    text-decoration: wavy;
+    text-align: center;
+    color: rgb(60, 184, 222);
+}
+#playerScore{
+    color:white
+}
+#computerScore{
+    color:white
+}

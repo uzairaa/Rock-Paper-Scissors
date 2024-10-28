@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Modes</title>
+	<link rel="stylesheet" href="Modes page.css" type="text/css"/>
+	<script type="text/javascript" src="project_client.js"></script>
+</head>
+<body onload="Number_Rounds('3')">
+	<div class="modes-container">
+		<div class="select-mode">
+			<h2>Select Mode</h2>
+			<div class="buttons-container">
+				<button class="single-player" onclick="location.href='Single player screen.html'">Single Player</button>
+				<button class="multiplayer" onclick="location.href='Multiplayer page.html'">Multiplayer</button>
+			</div>
+		</div>
+		<div class="best-of">
+			<h2>Best Of</h2>
+			<div class="buttons-container">
+				<button class="best-of-3" onclick="Number_Rounds('3')">Best of 3</button>
+				<button class="best-of-5" onclick="Number_Rounds('5')">Best of 5</button>
+				<button class="best-of-7" onclick="Number_Rounds('7')">Best of 7</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
